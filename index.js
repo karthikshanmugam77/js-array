@@ -34,7 +34,15 @@ console.log(indexOfFirst);
 
 //----------- FIND INDEX ----------------
 
-const findIndex = cars.findIndex( a=> a>);
-console.log(findIndex);
+// const findIndex = cars.findIndex( a=> a>);
+// console.log(findIndex);
 
-//------------- 
+//------------- FOR with/wihtout index -----------------
+
+for(let i=0;i<cars.length;i++)
+  console.log(cars[i]);
+
+for( let a of cars)
+{
+  console.log(a); 
+}
